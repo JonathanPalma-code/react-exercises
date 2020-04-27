@@ -5,6 +5,6 @@ import Greeting from './components/Greeting'
 
 ReactDOM.render(
   <div>
-    <Greeting />
+    <Greeting type='Good Morning' name='Jonathan' />
 </div>, 
 document.getElementById("root"))
