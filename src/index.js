@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const element = <h1>Welcome to React!</h1>
-ReactDOM.render(element, document.getElementById("root"))
+import First from './components/First';
+
+ReactDOM.render(<First />, document.getElementById("root"))
